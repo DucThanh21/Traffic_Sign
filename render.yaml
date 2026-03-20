@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: traffic-sign-streamlit
+    env: docker
+    plan: free
+    autoDeploy: true

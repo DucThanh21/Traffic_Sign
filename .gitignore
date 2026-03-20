@@ -17,6 +17,7 @@ Thumbs.db
 # Training outputs
 outputs/logs/
 outputs/models/*.pth
+!outputs/models/best_model.pth
 
 # Dataset heavy folders
 data/Train/

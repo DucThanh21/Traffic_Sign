@@ -17,6 +17,7 @@ Production-style Computer Vision project for traffic sign classification with Py
 
 - Best validation accuracy observed during training: around 99.63%.
 - Best checkpoint: `outputs/models/best_model.pth`.
+- Deployment-ready checkpoint is included in this repository for web hosting.
 
 ## Demo GIF
 
@@ -95,6 +96,37 @@ Open in browser:
 
 - http://127.0.0.1:8501
 - http://localhost:8501
+
+## Deploy To Website
+
+### Option 1: Streamlit Community Cloud (quickest)
+
+1. Push this repository to GitHub (already done).
+2. Go to https://share.streamlit.io
+3. Click `New app` and choose:
+	- Repository: `DucThanh21/Traffic_Sign`
+	- Branch: `main`
+	- Main file path: `app/streamlit_app.py`
+4. Deploy.
+
+Your app will get a public URL like:
+
+- `https://<your-app-name>.streamlit.app`
+
+### Option 2: Render (Docker)
+
+This repository already includes deploy files:
+
+- `Dockerfile`
+- `render.yaml`
+- `.streamlit/config.toml`
+
+Steps:
+
+1. Go to https://render.com
+2. Create `New Web Service` from this GitHub repo.
+3. Render will detect Docker and deploy automatically.
+4. Open the generated public URL to test.
 
 ## TensorBoard
 
