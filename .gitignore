@@ -31,3 +31,4 @@ data/archive/
 # Temporary files
 *.tmp
 *.log
+.~lock*
