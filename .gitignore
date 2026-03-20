@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Training outputs
+outputs/logs/
+outputs/models/*.pth
+
+# Dataset heavy folders
+data/Train/
+data/Test/
+data/raw/
+data/processed/
+data/archive/
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log

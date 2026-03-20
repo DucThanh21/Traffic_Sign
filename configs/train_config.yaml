@@ -1,0 +1,18 @@
+seed: 42
+num_classes: 43
+image_size: 64
+batch_size: 64
+num_workers: 2
+epochs: 10
+learning_rate: 0.001
+weight_decay: 0.0001
+val_split: 0.2
+model_name: resnet18
+pretrained: true
+
+paths:
+  data_root: data
+  train_csv: Train.csv
+  test_csv: Test.csv
+  model_output: outputs/models/best_model.pth
+  tensorboard_log_dir: outputs/logs
